@@ -1,0 +1,151 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212;
+    color: white;
+    display: flex;
+}
+
+.sidebar {
+    width: 300px;
+    background: #1e1e1e;
+    height: 100vh;
+    padding: 20px;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile img {
+    width: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+
+.sidebar nav a {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; 
+    color: white;
+    text-decoration: none;
+    padding: 12px 15px;
+    transition: 0.3s;
+    font-size: 16px;
+    width: 100%; 
+}
+.sidebar nav {
+    width: 100%;
+    text-align: left; 
+}
+
+.sidebar nav a {
+    display: block;
+    padding-left: 15px;
+}
+
+
+
+.main-content {
+    margin-left: 270px;
+    padding: 50px;
+    width: calc(100% - 270px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.home-content h1 {
+    color: white;
+    font-size: 36px;
+}
+
+.home-content h1 .highlight {
+    color: #f39c12;
+    font-weight: bold;
+}
+
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    width: 80%;
+    justify-content: center;
+    margin: auto;
+}
+
+.project-card {
+    background: linear-gradient(135deg, #f39c12, #d35400);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    transition: transform 0.3s;
+}
+
+.project-card:hover {
+    transform: scale(1.05);
+}
+
+.skills-section {
+    text-align: left;
+    width: 80%;
+    margin: auto;
+}
+
+.skills-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.skills-section li {
+    background: #333;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+}
+
+
+.resume-section, .contact-section {
+    max-width: 850px;
+    margin: 50px auto;
+    padding: 40px;
+    background: #1e1e1e;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.resume-section h2, .contact-section h2 {
+    color: #f39c12;
+    text-align: center;
+    font-size: 28px;
+
+}
+
+.resume-section h3 {
+    color: #d35400;
+    margin-top: 20px;
+}
+
+.resume-section p, .resume-section ul, .contact-section p {
+    color: #ddd;
+    font-size: 16px;
+    line-height: 1.6;
+
+}
+
+.resume-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.resume-section ul li {
+    background: #333;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    text-align: left;
+}
