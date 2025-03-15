@@ -37,7 +37,7 @@
             <p>Currently learning Clean architecture, performance optimization, and scalable app development.</p>
         </section>
 
-        <section id="projects">
+        <!-- <section id="projects">
             <h2>Projects</h2>
             <div class="project-grid">
                 <div class="project-card"> <h3>Crafty Bay</h3> <p>An E-commerce application.</p> </div>
@@ -48,7 +48,63 @@
                 <div class="project-card"> <h3>QuizWhiz</h3> <p>A Java-based quiz app.</p> </div>
                 <div class="project-card"> <h3>CRUD Application</h3> <p>A simple CRUD system demonstrating database operations.</p> </div>
             </div>
+        </section> -->
+
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="project-grid">
+                <!-- Cards with Google Drive Links -->
+                <a href="https://drive.google.com/file/d/1txWex4M-_N8Arr8KW7Z94o0yawGSCQe9/view?usp=drive_link" target="_blank" class="project-card"> 
+                    <h3>Crafty Bay</h3> 
+                    <p>An E-commerce application.</p> 
+                </a>
+        
+                <a href="https://drive.google.com/file/d/1CmxHcFzfcxKitbH3eTQklQrvy2jV-5Yn/view?usp=drive_link" target="_blank" class="project-card"> 
+                    <h3>Task Manager</h3> 
+                    <p>A productivity management tool.</p> 
+                </a>
+        
+                <!-- Cards without links (Will show Snackbar message) -->
+                <div class="project-card" onclick="showSnackbar()">
+                    <h3>POS System (Admin)</h3> 
+                    <p>Point of Sale management for business owners.</p> 
+                </div>
+        
+                <div class="project-card" onclick="showSnackbar()">
+                    <h3>POS System (Customer)</h3> 
+                    <p>Seamless POS experience for customers.</p> 
+                </div>
+        
+                <div class="project-card" onclick="showSnackbar()">
+                    <h3>QuizCrafter</h3> 
+                    <p>A quiz-based learning platform.</p> 
+                </div>
+        
+                <a href="https://drive.google.com/file/d/1hh0EkCJNYpSGAIOa1tbnqCeMFGfM6HHi/view?usp=drive_link" target="_blank" class="project-card"> 
+                    <h3>QuizWhiz</h3> 
+                    <p>A Java-based quiz app.</p> 
+                </a>
+        
+                <a href="https://drive.google.com/file/d/1XqCle4yeTpqFMgS8_Bk1BEEd0n4OJXEd/view?usp=drive_link" target="_blank" class="project-card"> 
+                    <h3>CRUD Application</h3> 
+                    <p>A simple CRUD system demonstrating database operations.</p> 
+                </a>
+            </div>
         </section>
+        
+        <!-- Snackbar Message -->
+        <div id="snackbar">This project is under development.</div>
+        
+        <script>
+            function showSnackbar() {
+                var x = document.getElementById("snackbar");
+                x.className = "show";
+                setTimeout(function(){ x.className = x.className.replace("show", ""); }, 3000);
+            }
+        </script>
+        
+        
+        
 
         <section id="skills" class="skills-section">
             <h2>Skills</h2>
@@ -115,6 +171,7 @@
             <h2>Contact Me</h2>
             <p>Email: hamim15-5264@diu.edu.bd</p>
             <p>Whatsapp/Call: +880 1724-879284</p>
+            <p>GitHub: github.com/hamim5264</p>
         </section>
     </div>
 
