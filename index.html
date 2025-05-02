@@ -11,7 +11,7 @@
 <body>
     <div class="sidebar">
         <div class="profile">
-            <img src="images/Hamim.png" alt="Profile Image">
+            <img src="images/hamimLeon.jpeg" alt="Profile Image">
             <h2>MD. ABDUL HAMIM</h2>
             <p>Mobile Application Developer | Flutter</p>
         </div>
@@ -37,69 +37,66 @@
             <p>Currently learning Clean architecture, performance optimization, and scalable app development.</p>
         </section>
 
-        <!-- <section id="projects">
-            <h2>Projects</h2>
-            <div class="project-grid">
-                <div class="project-card"> <h3>Crafty Bay</h3> <p>An E-commerce application.</p> </div>
-                <div class="project-card"> <h3>Task Manager</h3> <p>A productivity management tool.</p> </div>
-                <div class="project-card"> <h3>POS System (Admin)</h3> <p>Point of Sale management for business owners.</p> </div>
-                <div class="project-card"> <h3>POS System (Customer)</h3> <p>Seamless POS experience for customers.</p> </div>
-                <div class="project-card"> <h3>QuizCrafter</h3> <p>A quiz-based learning platform.</p> </div>
-                <div class="project-card"> <h3>QuizWhiz</h3> <p>A Java-based quiz app.</p> </div>
-                <div class="project-card"> <h3>CRUD Application</h3> <p>A simple CRUD system demonstrating database operations.</p> </div>
-            </div>
-        </section> -->
-
         <section id="projects">
             <h2>Projects</h2>
             <div class="project-grid">
-                <!-- Cards with Google Drive Links -->
-                <a href="https://drive.google.com/file/d/1txWex4M-_N8Arr8KW7Z94o0yawGSCQe9/view?usp=drive_link" target="_blank" class="project-card"> 
-                    <h3>Crafty Bay</h3> 
-                    <p>An E-commerce application.</p> 
-                </a>
-        
-                <a href="https://drive.google.com/file/d/1CmxHcFzfcxKitbH3eTQklQrvy2jV-5Yn/view?usp=drive_link" target="_blank" class="project-card"> 
-                    <h3>Task Manager</h3> 
-                    <p>A productivity management tool.</p> 
-                </a>
-        
-                <!-- Cards without links (Will show Snackbar message) -->
+                <!-- All cards now show snackbar -->
                 <div class="project-card" onclick="showSnackbar()">
-                    <h3>POS System (Admin)</h3> 
-                    <p>Point of Sale management for business owners.</p> 
+                    <h3>Crafty Bay</h3>
+                    <p>An E-commerce application.</p>
                 </div>
         
                 <div class="project-card" onclick="showSnackbar()">
-                    <h3>POS System (Customer)</h3> 
-                    <p>Seamless POS experience for customers.</p> 
+                    <h3>Task Manager</h3>
+                    <p>A productivity management tool.</p>
                 </div>
-    
-
-                <a href="https://drive.google.com/file/d/129sjKRt1AXIcR8CFqzqdkaClOpEk_Bq9/view?usp=sharing" target="_blank" class="project-card"> 
-                    <h3>QuizCrafter V1.0.2</h3> 
-                    <p>Emphasizing Creativity and Interactive Quizzes.</p> 
-                </a>
         
                 <div class="project-card" onclick="showSnackbar()">
-                    <h3>QuizCrafter V2.0.1</h3> 
-                    <p>Learn, Teach, Earn</p> 
+                    <h3>POS System (Admin)</h3>
+                    <p>Point of Sale management for business owners.</p>
                 </div>
-
-                <a href="https://drive.google.com/file/d/1hh0EkCJNYpSGAIOa1tbnqCeMFGfM6HHi/view?usp=drive_link" target="_blank" class="project-card"> 
-                    <h3>QuizWhiz</h3> 
-                    <p>A Java-based quiz app.</p> 
-                </a>
         
-                <a href="https://drive.google.com/file/d/1XqCle4yeTpqFMgS8_Bk1BEEd0n4OJXEd/view?usp=drive_link" target="_blank" class="project-card"> 
-                    <h3>CRUD Application</h3> 
-                    <p>A simple CRUD system demonstrating database operations.</p> 
+                <div class="project-card" onclick="showSnackbar()">
+                    <h3>POS System (Customer)</h3>
+                    <p>Seamless POS experience for customers.</p>
+                </div>
+        
+                <div class="project-card" onclick="showSnackbar()">
+                    <h3>QuizCrafter V1.0.2</h3>
+                    <p>Emphasizing Creativity and Interactive Quizzes.</p>
+                </div>
+        
+                <div class="project-card" onclick="showSnackbar()">
+                    <h3>QuizCrafter V2.0.1</h3>
+                    <p>Learn, Teach, Earn</p>
+                </div>
+        
+                <div class="project-card" onclick="showSnackbar()">
+                    <h3>QuizWhiz</h3>
+                    <p>A Java-based quiz app.</p>
+                </div>
+        
+                <div class="project-card" onclick="showSnackbar()">
+                    <h3>CRUD Application</h3>
+                    <p>A simple CRUD system demonstrating database operations.</p>
+                </div>
+        
+                <div class="project-card" onclick="showSnackbar()">
+                    <h3>Find It</h3>
+                    <p>Lost & Found App.</p>
+                </div>
+            </div>
+        
+            <!-- Official Website Button -->
+            <div style="text-align: center; margin-top: 30px;">
+                <a href="https://devengine-three.vercel.app" target="_blank" class="visit-btn">
+                    🌐 Visit My Official Website
                 </a>
             </div>
         </section>
         
         <!-- Snackbar Message -->
-        <div id="snackbar">This project is under development.</div>
+        <div id="snackbar">To get more information or buy this project, visit the official website provided below.</div>        
         
         <script>
             function showSnackbar() {
